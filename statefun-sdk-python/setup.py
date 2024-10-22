@@ -37,7 +37,7 @@ setup(
     description='Python SDK for Apache Flink Stateful functions',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    install_requires=['protobuf>=3.11.3,<4.0.0'],
+    install_requires=['protobuf>=5.26.1,<6.0.0'],
     tests_require=['pytest'],
     python_requires='>=3.8',
     classifiers=[
